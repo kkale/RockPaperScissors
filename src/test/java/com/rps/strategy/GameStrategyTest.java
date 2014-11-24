@@ -89,7 +89,7 @@ public class GameStrategyTest {
 	@Test
 	public void testScissorsVsPaper() {
 		GameResult result = strategy.resolve(GameHand.SCISSORS, GameHand.PAPER);
-		assertEquals(GameResult.PLAYER_ONE_WINS, result);		
+		assertEquals(GameResult.PLAYER_TWO_WINS, result);		
 	}
 
 	/**
